@@ -4,11 +4,19 @@
    Author's custom styles
    ========================================================================== */
 
+/* Space content slightly */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-
-
-
-
+/* Add side padding to everything to support mobile first views except Jumbotron */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left:  15px;
+}
 
 
 
